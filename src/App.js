@@ -1,7 +1,11 @@
 import Contact from "./Contact";
 
 function App() {
-  return <Contact />;
+  return (
+    <div>
+      <Contact />;
+    </div>
+  );
 }
 
 export default App;
